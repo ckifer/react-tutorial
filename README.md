@@ -1,3 +1,7 @@
+React.js tutorial completion:
+![Tic Tac Toe](/public/Screen%20Shot%202018-03-12%20at%2011.56.29%20PM.png?raw=true)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
