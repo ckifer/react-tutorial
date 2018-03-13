@@ -1,4 +1,7 @@
-React.js tutorial completion:
+## React Tutorial
+
+React.js Tic Tac Toe tutorial completion:
+
 ![Tic Tac Toe](/public/Screen%20Shot%202018-03-12%20at%2011.56.29%20PM.png?raw=true)
 
 
