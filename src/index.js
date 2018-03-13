@@ -2,14 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-function Square(props) {
-    return (
-     <button className="square" onClick={props.onClick}>
-         { props.value }
-     </button>
-    );
-}
-
 class Board extends React.Component {
     constructor(props){
         super(props);
@@ -84,6 +76,14 @@ class Game extends React.Component {
     }
 }
 
+function Square(props) {
+    return (
+        <button className="square" onClick={props.onClick}>
+            { props.value }
+        </button>
+    );
+}
+
 function calculateWinner(squares) {
     const lines = [
         [0, 1, 2],
@@ -105,8 +105,11 @@ function calculateWinner(squares) {
 }
 
 // ========================================
-
+const heading = <h1 className="myHeading">React Tutorial Tic Tac Toe</h1>;
 ReactDOM.render(
-    <Game />,
-    document.getElementById('root')
+    <div>
+        {heading}
+        <Game />
+    </div> ,
+    document.getElementById('root'),
 );

@@ -46,7 +46,7 @@ ol, ul {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-148px, -250px);
+  transform: translate(-148px, -200px);
 }
 
 .game {
@@ -56,4 +56,9 @@ ol, ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.myHeading {
+  text-align: center;
+  padding-bottom: 20px;
 }
