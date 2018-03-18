@@ -52,6 +52,7 @@ class Game extends React.Component {
         const current = history[history.length - 1];
         const squares = current.squares.slice();
         if (calculateWinner(squares) || squares[i]) {
+
             return;
         }
         squares[i] = this.state.xIsNext ? 'X' : 'O';
@@ -69,6 +70,14 @@ class Game extends React.Component {
             stepNumber: step,
             xIsNext: (step % 2) === 0,
         });
+    }
+
+    static isBoardFull(squares) {
+         let removeEmpty = squares.filter(function (element) {
+            return element !== null;
+        });
+        return removeEmpty.length === squares.length;
+
     }
 
     render() {
@@ -92,6 +101,9 @@ class Game extends React.Component {
             status = winner + ' is the Winner!!!';
         } else {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
+            if (Game.isBoardFull(current.squares)) {
+                status = 'No Winner! Cat\'s Game!';
+            }
         }
         return (
             <div className="game">
@@ -133,8 +145,6 @@ function calculateWinner(squares) {
         const [a, b, c] = lines[i];
         if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
             return squares[a];
-        } else {
-
         }
     }
     return null;

@@ -18,8 +18,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="253">
+              <caret line="103" column="48" lean-forward="false" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -268,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1520531923610</updated>
       <workItem from="1520531925045" duration="4414000" />
-      <workItem from="1520891377155" duration="11586000" />
+      <workItem from="1520891377155" duration="14625000" />
     </task>
     <task id="LOCAL-00001" summary="first commit of react tutorial">
       <created>1520636391521</created>
@@ -326,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520913718874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add history to game to go back through moves">
+      <created>1521348532278</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521348532278</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16000000" />
+    <option name="totallyTimeSpent" value="19039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -406,7 +413,8 @@
     <MESSAGE value="add heading and css tweaks. Looks good for now may refactor later" />
     <MESSAGE value="add img to readme" />
     <MESSAGE value="fix readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix readme" />
+    <MESSAGE value="add history to game to go back through moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="add history to game to go back through moves" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="253">
+          <caret line="103" column="48" lean-forward="false" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
